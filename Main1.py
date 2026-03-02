@@ -64,6 +64,7 @@ def Signup(e):
 
     else:
 
-        document.getElementById("output").innerHTML = "Invalid password! Username must contain 10 letters, and Password must be at least 10 characters long and contain both letters and numbers." #display error message
+        document.getElementById("output").innerHTML = "Invalid username/password! Username must contain 7 letters, and Password must be at least 10 characters long and contain both letters and numbers." #display error message
 
         e.preventDefault()
+
